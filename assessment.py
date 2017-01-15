@@ -100,7 +100,7 @@ class Exam(object):
                 score += 1
         
         # Note - I changed the total from a float to an int for the output
-        # Of the Example function. To return a float, it would be:
+        # Of the example() function. To return a float, it would be:
         # total = float(score / (len(self.questions)))
 
         total = (score * 100) / len(self.questions)
@@ -132,7 +132,7 @@ def take_test(exam, student):
 
 
 def example():
-    """Administers a test using date created within the function"""
+    """Administers a test using data created within the function"""
 
     exam = Exam("midterm")
 
